@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
@@ -72,6 +73,14 @@ const AboutPageStyles = styled.div`
       font-size: 3rem;
     }
   }
+  #CV {
+    font-size: 2vw;
+    color: #008b8b;
+  }
+  #GITHUB {
+    font-size: 2vw;
+    color: #fffaf0;
+  }
 `;
 
 export default function About() {
@@ -105,7 +114,8 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a id="CV" href="https://1drv.ms/b/s!AsgBvgD4TINXh2W_TlMlfP8SDBsV" download>Download CV</a>
+              <a id="GITHUB" href="https://github.com/MarlboroJamez" download>  GITHUB</a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

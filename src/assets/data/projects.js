@@ -13,6 +13,7 @@ const projects = [
     desc:
       'This is a Amazon Clone from the original website Amazon',
     img: Amazon,
+    link: 'https://clone-ea7ee.web.app/',
   },
   {
     id: uuidv4(),
@@ -20,6 +21,7 @@ const projects = [
     desc:
       'This is a Facebook Clone from the original website Facebook.',
     img: Facebook,
+    link: 'https://fb-clone-f05b5.firebaseapp.com/',
   },
   {
     id: uuidv4(),
@@ -27,6 +29,7 @@ const projects = [
     desc:
       'COVID-19 Tracker, UI/UX view towards live covid stats',
     img: Covid,
+    link: 'https://covid-tracker-8cec7.firebaseapp.com/',
   },
   {
     id: uuidv4(),
@@ -34,6 +37,7 @@ const projects = [
     desc:
       'A Netflix Clone from the original website/application Netflix',
     img: Netflix,
+    link: 'https://netflix-clone-5e343.firebaseapp.com/',
   },
   {
     id: uuidv4(),
@@ -41,6 +45,7 @@ const projects = [
     desc:
       'Disney Plus Clone from the orginal website/application Disney Plus',
     img: Disney,
+    link: 'https://github.com/MarlboroJamez/ReactJS-Clones/tree/main/disney-plus-clone',
   },
 ];
 
