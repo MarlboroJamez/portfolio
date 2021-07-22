@@ -5,8 +5,17 @@ import Amazon from '../images/utracker.jpg';
 import Facebook from '../images/greenctg.jpg';
 import Covid from '../images/cointracker.jpg';
 import Netflix from '../images/cavinimg.jpg';
+import LinkedIn from '../images/linkedin.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'LinkedIn Clone',
+    desc:
+      'This is a LinkedIn Clone from the original website LinkedIn.',
+    img: LinkedIn,
+    link: 'https://linkedin-clone-58b1f.firebaseapp.com/',
+  },
   {
     id: uuidv4(),
     name: 'Amazon Clone',
