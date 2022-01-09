@@ -1,35 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Footer from './components/Footer';
-import NavMenu from './components/NavMenu';
-import ScrollToTop from './components/ScrollToTop';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-export default function App() {
+//Routes
+import Home from './views/home'
+import StockScreener from './pages/stockScreener'
+
+function App() {
   return (
-    <>
-      <Router>
-        <NavMenu />
-        <ScrollToTop />
+    <Router>
+      <div className="font-poppins">
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/stock/screener" component={StockScreener}/>
         </Switch>
-        <Footer />
-      </Router>
-    </>
+      </div>
+    </Router>
   );
 }
+
+export default App;

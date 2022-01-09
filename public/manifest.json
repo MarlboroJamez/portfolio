@@ -1,9 +1,9 @@
 {
-  "short_name": "PORTFOLIO",
-  "name": "James Williams PORTFOLIO",
+  "short_name": "Portfolio",
+  "name": "James Williams Portfolio",
   "icons": [
     {
-      "src": "portfolio.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
