@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="theme-color" content="#000000" />
-	  <meta property="og:image" href="https://github.com/MarlboroJamez/portfolio/blob/main/public/cover.png"/>
+	  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://res.cloudinary.com/my-studios-pro-primary/image/upload/v1641765224/cover_1_g8qfjh.png?1"/>
     <meta
-      name="og:description"
-      content="James Williams Portfolio"
-    />
-    <meta
-      name="og:type"
+      prefix="og: http://ogp.me/ns#"
+      property="og:description"
       content="Resume, Portfolio and Live Stock Screener Website for James Williams"
     />
-    <meta name="og:title" content="James Williams Portfolio" />
+    <meta
+      prefix="og: http://ogp.me/ns#"
+      property="og:type"
+      content="Resume, Portfolio and Live Stock Screener Website for James Williams"
+    />
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="James Williams Portfolio" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -32,6 +34,34 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Marlboro_jamez 💤</title>
+	<!-- Start of Async Drift Code -->
+	<script>
+	"use strict";
+
+	!function() {
+	  var t = window.driftt = window.drift = window.driftt || [];
+	  if (!t.init) {
+		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+		t.factory = function(e) {
+		  return function() {
+			var n = Array.prototype.slice.call(arguments);
+			return n.unshift(e), t.push(n), t;
+		  };
+		}, t.methods.forEach(function(e) {
+		  t[e] = t.factory(e);
+		}), t.load = function(t) {
+		  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+		  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+		  var i = document.getElementsByTagName("script")[0];
+		  i.parentNode.insertBefore(o, i);
+		};
+	  }
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('fyipt9vdwr3c');
+	</script>
+<!-- End of Async Drift Code -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

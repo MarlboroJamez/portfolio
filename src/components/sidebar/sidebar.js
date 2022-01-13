@@ -41,7 +41,10 @@ function Sidebar({myRef}) {
             {show ? (
                 <div className="mt-6 w-52 h-fit bg-matt-900 border-2 border-cyan-600 rounded-lg">
                     <div>
-                        <ul className="text-center flex p-2 mr-4">
+                        <ul className="text-center p-2 mr-4">
+                            <a href="https://onedrive.live.com/download?cid=57834CF800BE01C8&resid=57834CF800BE01C8%211240&authkey=AFnsiVl-g43VB8U&em=2">
+                                <li className="ml-3 pt-2 cursor-pointer outline-none transform hover:scale-102 transition duration-400 ease-linear hover:text-sky-700 p-2 font-medium text-xl text-cyan-500">Resume</li>
+                            </a>
                             <Link to="/stock/screener">
                                 <li className="ml-3 pt-2 cursor-pointer outline-none transform hover:scale-102 transition duration-400 ease-linear hover:text-sky-700 p-2 font-medium text-xl text-cyan-500">Stocks Screener</li>
                             </Link>

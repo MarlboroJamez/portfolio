@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.6.0",
+    "@popperjs/core": "^2.11.2",
     "@react-pdf-viewer/core": "^2.4.1",
     "@react-pdf-viewer/default-layout": "^3.0.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -24,6 +25,7 @@
     "react-slick": "^0.28.1",
     "react-syntax-highlighter": "^15.4.5",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
