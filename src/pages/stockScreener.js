@@ -22,7 +22,7 @@ function StockScreener() {
     const [active, setActive] = useState(false);
 
     return (
-        <div className="overflow-hidden md:overflow-visible h-screen bg-gray-100 p-2 md:p-6">
+        <div className="min-h-screen pb-24 bg-gray-100 p-2 md:p-6">
             <Link to="/">
                 <h1 className="text-sky-500 text-lg font-semibold transition duration-400 transition-transform hover:scale-101 ease-in-out hover:text-cyan-700 cursor-pointer">Go Back</h1>
             </Link>
@@ -56,7 +56,7 @@ function StockScreener() {
             </div>
 
             {/* Views */}
-            <div className="md:h-fit h-screen mt-24 md:mt-6">
+            <div className="md:h-fit h-fit mt-24 md:mt-6">
                 {selected === "short-squeeze" && <ShortSqueeze/>}
                 {selected === "Gap Ups" && <GapUps/>}
                 {selected === "Bounce Ups" && <BounceUps/>}

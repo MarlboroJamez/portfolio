@@ -63,16 +63,16 @@ function HighVolumeVolatility() {
                 : tick.map((ti, i) => (
                     <tr className="text-center text-xs">
                         <td className="p-1 font-semibold text-cyan-600">{ti.Ticker}</td>
-                        <td className="p-1 md:block hidden">{ti['Market Cap']}</td>
-                        <td className="p-1 md:block hidden">{ti['P/E']}</td>
+                        <td className="p-1 md:table-cell hidden">{ti['Market Cap']}</td>
+                        <td className="p-1 md:table-cell hidden">{ti['P/E']}</td>
                         <td className="p-1">{ti.Price}</td>
-                        <td className="p-1 md:block hidden">{ti.Change}</td>
+                        <td className="p-1 md:table-cell hidden">{ti.Change}</td>
                         <td className="p-1">{ti.Volume}</td>
                         <td className="p-1">{ti.Float}</td>
-                        <td className="p-1 md:block hidden">{ti['Float Short']}</td>
+                        <td className="p-1 md:table-cell hidden">{ti['Float Short']}</td>
                         <td className="p-1">{ti['Short Ratio']}</td>
-                        <td className="p-1 md:block hidden">{ti['Avg Volume']}</td>
-                        <td className="p-1 md:block hidden">{ti['from Open']}</td>
+                        <td className="p-1 md:table-cell hidden">{ti['Avg Volume']}</td>
+                        <td className="p-1 md:table-cell hidden">{ti['from Open']}</td>
                         <td className="p-1">{ti.Gap}</td>
                         <td className="p-1">{ti['Rel Volume']}</td>
                     </tr>
